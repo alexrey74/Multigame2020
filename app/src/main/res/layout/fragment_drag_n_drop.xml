@@ -2,29 +2,28 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorWhite"
+    android:background="@color/white"
     android:orientation="vertical">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dragndrop_container"
+            android:layout_height="100dp"
             android:orientation="horizontal">
             <FrameLayout
                 android:id="@+id/drag_frame_top_left"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/colorGreen" />
+                android:background="@color/light_grey" />
             <FrameLayout
                 android:id="@+id/drag_frame_top_right"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/colorRed" />
+                android:background="@color/dark_blue" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
-                android:background="@color/colorBlack" />
+                android:background="@color/pink" />
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -57,8 +56,8 @@
                     android:textSize="16sp" />
                 <FrameLayout
                     android:id="@+id/drag_target"
-                    android:layout_width="@dimen/dragndrop_target"
-                    android:layout_height="@dimen/dragndrop_target"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:background="@drawable/circle" />
             </RelativeLayout>
             <FrameLayout
@@ -66,24 +65,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
-                android:background="@color/colorYellow" />
+                android:background="@color/colorPrimary" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dragndrop_container"
+            android:layout_height="100dp"
             android:orientation="horizontal">
             <FrameLayout
                 android:id="@+id/drag_frame_bottom_left"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/colorBlue" />
+                android:background="@color/color_black" />
             <FrameLayout
                 android:id="@+id/drag_frame_bottom_right"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/colorPink" />
+                android:background="@color/red" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
+

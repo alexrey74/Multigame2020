@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="dragndrop_container">100dp</dimen>
-    <dimen name="dragndrop_target">60dp</dimen>
-</resources>
